@@ -9,5 +9,6 @@ def main():
             number = float(line)
             ans = number + ans
     #print(ans)
+
 if __name__ == '__main__':
     main()
