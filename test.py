@@ -8,7 +8,12 @@ def main():
         if line.strip():
             number = float(line)
             ans = number + ans
-    print(ans)
+            
+    if(ans.is_integer()):
+        print(int(ans))
+    else:
+        print(ans)
+
 
 if __name__ == '__main__':
     main()
